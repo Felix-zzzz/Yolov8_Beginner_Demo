@@ -1,5 +1,6 @@
-train: F:\FubingZhang\Yolov8_Beginner_Demo\object_detection\fruits_sets/images/train/
-val: F:\FubingZhang\Yolov8_Beginner_Demo\object_detection\fruits_sets/images/val/
+path: C:/Users/admin/Desktop/yolo/object_detection/fruits_sets
+train: images/train
+val: images/val
 
 nc: 3
 

@@ -2,12 +2,12 @@ from ultralytics import YOLO
 from PIL import Image
 
 # 导入模型
-model = YOLO('./runs/detect/train2/weights/best.pt') 
+model = YOLO('./runs/detect/train/weights/best.pt')
 # 加载一个预训练的YOLOv8n模型，在训练结束后会提示最终/最好模型的存放位置
 
 
 # 可以找一个测试图片来测试模型的预测情况
-model.predict('oranges_4.png', save=True, save_conf=True, conf=0.90, show=True) 
+model.predict('fruits_sets/images/val/oranges_4.png', save=True, save_conf=True, conf=0.90, show=True)
 # Show the results
 
 

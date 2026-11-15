@@ -1,7 +1,8 @@
 # 训练集、验证集、测试集相对于 path 的路径（一般不用区分验证集和测试集，统称测试集）
-train: F:\FubingZhang\Yolov8_Beginner_Demo\keypoint_detection\apple_keypoint\images/train
-val: F:\FubingZhang\Yolov8_Beginner_Demo\keypoint_detection\apple_keypoint\images/val
-test: F:\FubingZhang\Yolov8_Beginner_Demo\keypoint_detection\apple_keypoint\images/val
+path: C:/Users/admin/Desktop/yolo/keypoint_detection/apple_keypoint
+train: images/train
+val: images/val
+test: images/val
 
 # 3 种关键点，每个关键点有 X Y 是否可见 三个参数
 # 是否可见：2-可见不遮挡 1-遮挡 0-没有点
